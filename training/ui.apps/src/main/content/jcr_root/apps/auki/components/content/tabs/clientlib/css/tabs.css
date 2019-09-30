@@ -1,0 +1,29 @@
+.tab-indicator {
+	max-width : 100%;
+    margin : auto;
+    height: 400px;
+}
+
+.cmp-tabs__tab {
+    width: 15%;
+    margin: 0 2.5%;
+    text-align: center;
+    padding: 0 !important;
+    font-weight: 700;
+    opacity: 0.8;
+}
+    .cmp-tabs__tab:hover {
+		border-bottom: 4px solid #b42573;
+	}
+
+    .cmp-tabs__tab--active {
+    	opacity: 1;
+    	outline: none;
+		border-bottom: 4px solid #b42573 !important;
+
+	}
+
+
+    .imagesize {
+		max-width : 40%;
+	}

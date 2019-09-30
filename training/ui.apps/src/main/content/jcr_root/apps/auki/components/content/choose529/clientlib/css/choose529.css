@@ -1,0 +1,90 @@
+#choose {
+  color: #ffffff;
+  text-align: left;
+  float: none; }
+  #choose .col-sm-6 {
+    width: 54%; }
+  #choose h5 {
+    padding-top: 53vh;
+    color: #ffffff; }
+  #choose h1 {
+    font-size: 30px; }
+  #choose p {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 5px 0 5px 0;
+    padding-bottom: 1rem; }
+  #choose a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800; }
+
+.kid-raise {
+  contain: content;
+  margin: auto;
+  max-width: 95%; }
+  .kid-raise article {
+    height: 500px;
+    padding-top: 30px;
+    text-align: center;
+    background: #ffffff; }
+    .kid-raise article h1 {
+      font-family: "AvenirNextLTCom-Demi";
+      font-size: 26px; }
+    .kid-raise article p {
+      font-size: 19px;
+      margin: 4%;
+      border-bottom: 1px solid #e5e5e5;
+      padding-bottom: 1rem; }
+
+.shadow {
+  -webkit-box-shadow: 0px 5px 5px 0 #a19797;
+  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0px 5px 5px 0x #a19797;
+  /* Firefox 3.5 - 3.6 */
+  box-shadow: 0px 5px 5px 0 #a19797;
+  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */ }
+
+@media (max-width: 992px) {
+  .container {
+    padding-bottom: 2rem; }
+    .container .col #choose {
+      float: none;
+      text-align: center;
+      margin-top: -190px; }
+      .container .col #choose h5 {
+        font-weight: 600 !important;
+        padding-top: 53vh !important;
+        font-size: 1rem !important;
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: .5px; }
+      .container .col #choose h1 {
+        padding-left: 20px;
+        text-align: center;
+        font-size: 1.685rem; }
+      .container .col #choose p {
+    	max-width: 70%;
+    	margin: auto;
+        font-size: 1rem;
+        padding-bottom: 0; }
+      .container .col #choose a {
+        font-size: 12px; }
+    .container .col-lg-7 {
+      margin: auto;
+      width: 100%;
+      padding: 0; }
+      .container .col-lg-7 .kid-raise {
+        margin-top: 50px;
+        height: auto; }
+        .container .col-lg-7 .kid-raise img {
+          width: 100%; }
+        .container .col-lg-7 .kid-raise article {
+          text-align: center; }
+          .container .col-lg-7 .kid-raise article h1 {
+            color: #ffffff; }
+          .container .col-lg-7 .kid-raise article p {
+            font-weight: 400;
+            line-height: 1;
+            padding-bottom: 2rem; } }
+

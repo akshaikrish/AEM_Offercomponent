@@ -1,0 +1,61 @@
+.jumbo {
+  background-image: url("https://www.americanfunds.com/content/dam/cgc/shared-content/images/banners/mother-holding-baby-cooing-with-aperture-banner-3.jpg");
+  background-size: cover;
+  position: relative;
+  margin-bottom: 0;
+  min-height: 35vw; }
+  .jumbo h1 {
+    font-size: 2.1rem;
+    line-height: 1.32; }
+  .jumbo p {
+    font-size: 1.5rem;
+    line-height: 1.32; }
+  .jumbo h2 {
+    font-size: 2rem; }
+  .jumbo__title {
+    width: 45vw;
+    height: 20vw;
+    position: absolute;
+    top: 10vw;
+    left: 140px; }
+
+@media (max-width: 1050px) {
+  .jumbo {
+    background-image: url("https://www.americanfunds.com/content/dam/cgc/shared-content/images/banners/mother-holding-baby-cooing-with-mobile-version.jpg");
+    min-height: 875px; }
+    .jumbo__title {
+      width: 83vw;
+      height: 20vw;
+      position: absolute;
+      top: 105px;
+      left: 74px; }
+    .jumbo h1 {
+      font-size: 1.7rem; }
+    .jumbo p {
+      font-size: 1.2rem;
+      padding-right: 197px; }
+    .jumbo h2 {
+      font-size: 1.8rem; } }
+
+@media (max-width: 590px) {
+  .jumbo {
+    background-image: url("https://www.americanfunds.com/content/dam/cgc/shared-content/images/banners/mother-holding-baby-cooing-banner-portrait.jpg   ");
+    min-height: 475px; }
+    .jumbo__title {
+      width: 75vw;
+      height: 275px;
+      text-align: center;
+      background-color: white;
+      top: 190px;
+      opacity: .8;
+      margin-left: 13%;
+      padding-top: 40px;
+      left: 0px; }
+    .jumbo p {
+      padding: 0;
+      font-size: 1rem; }
+    .jumbo h1 {
+      font-size: 1.5rem; }
+    .jumbo h2 {
+      font-size: 1.5rem; } }
+

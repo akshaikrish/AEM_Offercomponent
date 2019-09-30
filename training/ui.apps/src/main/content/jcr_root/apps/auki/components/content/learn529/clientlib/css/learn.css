@@ -1,0 +1,39 @@
+
+.learn {
+  max-width: 95%;
+  margin: auto;
+  height: auto;
+  display: grid;
+  margin-bottom: 2rem !important; }
+
+article h3 {
+  letter-spacing: 1.5px;
+  color: #7f7f7f;
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 2rem !important; }
+
+article h2 {
+  color: #333333;
+  font-size: 2.7rem;
+  font-weight: 500;
+  line-height: 1.371;
+  margin-bottom: 2rem !important; }
+
+article p {
+  font-size: 26px;
+  color: #333333;
+  line-height: 1.6;
+  margin-bottom: 2rem !important;
+  letter-spacing: 1px; }
+
+@media (max-width: 768px) {
+  .learn article h3 {
+    margin-bottom: 1rem !important; }
+  .learn article h2 {
+    font-size: 22px;
+    margin-bottom: 1rem !important; }
+  .learn article p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 1rem !important; } }

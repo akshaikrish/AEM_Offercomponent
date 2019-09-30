@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content jcr:primaryType="nt:unstructured"/>
+    <banner-cap-system-promo-products_mega.jpg/>
+    <banner-web-TCA-920x102.png/>
+    <cg-af-logo-200x89.png/>
+    <cg-af-primary-rgb-207x95.png/>
+    <cg-af-primary-rgb-mobile-317x82.png/>
+    <cg-logo-registeredmark-84x76.png/>
+    <ch-4-hero-229x80.jpg/>
+    <Children-raising-hands-in-school-1.jpg/>
+    <Expectant-mother-and-father-illustration-small-green.png/>
+    <family-expecting-second-child-graphic-1.png/>
+    <father-walking-with-young-son.png/>
+    <grandparents-spending-time-with-grandchildren-closeup-graphic.png/>
+    <icon-calculator-book-pen-paper-other-information-sources.png/>
+    <icon-savings-calculator.png/>
+    <mother-holding-baby-cooing-with-mobile-version.jpg/>
+    <logo-virginia.png/>
+    <photo-mega-nav-422x427.jpg/>
+    <preload_pattern.png/>
+    <starting-college-graphic-3.png/>
+    <mother-holding-baby-cooing-with-aperture-banner-3.jpg/>
+    <students-on-college-campus-graphic.png/>
+</jcr:root>

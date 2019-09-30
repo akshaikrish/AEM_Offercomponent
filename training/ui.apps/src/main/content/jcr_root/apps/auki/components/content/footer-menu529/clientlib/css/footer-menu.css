@@ -1,0 +1,56 @@
+.footermenu529 {
+  background: #989898;
+  height: auto;
+  color: white; }
+
+  .footermenu__column {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 12.5%;
+    float: left; }
+    .footermenu__column h3 {
+      font-weight: 700;
+      font-size: 1rem;
+      margin-bottom: 3vh; }
+    .footermenu__column ul {
+      margin: 0;
+      list-style: none;
+      padding: 0; }
+      .footermenu__column ul li {
+        margin: 5px 0;
+        margin-bottom: 3vh; }
+        .footermenu__column ul li a {
+          color: white;
+          text-decoration: none;
+          font-size: .9rem;
+          font-weight: 600; }
+          .footermenu__column ul li a:hover {
+            background: transparent;
+            border-bottom: 2px solid white; }
+
+.accordion .card-header {
+  padding: 0 !important;
+  background-color: #999999; }
+  .accordion .card-header button {
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 15px; }
+
+.accordion .collapse {
+  background-color: #5e5d5d; }
+  .accordion .collapse ul {
+    background: #5e5d5d; }
+    .accordion .collapse ul li {
+      list-style-type: none; }
+      .accordion .collapse ul li a {
+        color: white; }
+
+.accordion .btn.btn-link::before {
+  content: "\25BC ";
+  font-weight: bolder; }
+
+.accordion .btn.btn-link.collapsed::before {
+  content: "\25BA ";
+  font-weight: bolder; }
+

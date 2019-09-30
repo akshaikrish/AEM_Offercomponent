@@ -1,0 +1,49 @@
+
+.plan {
+  overflow: hidden;
+  height: 800px;
+  margin-top: 10vh;
+  padding: 16px; }
+  .plan .col-lg-7 h2 {
+    font-size: 2.3rem;
+    font-weight: 700; }
+  .plan__fatherson {
+    width: 70vw; }
+  .plan .col-lg-5 {
+    float: right;
+    top: -66vh;
+    right: -6vw; }
+  .plan .col-sm-3 {
+    display: grid; }
+    .plan .col-sm-3 img {
+      margin-bottom: 10px;
+      width: 5vw; }
+    .plan .col-sm-3 p {
+      font-size: 20px;
+      width: 19vw;
+      font-weight: 300; }
+    .plan .col-sm-3 a {
+      color: #0099E2;
+      font-weight: 900;
+      font-size: 21px; }
+
+.d-lg-none {
+  margin: auto;
+  max-width: 90%;
+  text-align: center;
+  display: grid; }
+  .d-lg-none article {
+    text-align: center;
+    max-width: 70%;
+    margin: auto; }
+    .d-lg-none article p {
+      font-size: 0.8rem; }
+  .d-lg-none .col-sm-6 {
+    text-align: left;
+    display: grid;
+    margin-top: 20px;
+    max-width: 50%; }
+
+@media (max-width: 585px) {
+  .d-lg-none .img-fluid {
+    padding-top: 20vh; } }

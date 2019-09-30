@@ -1,0 +1,40 @@
+
+
+.floatBar {
+  top: 60%;
+  position: fixed;
+  z-index: 4;
+  margin-left: 0; }
+  .floatBar li {
+    list-style-type: none;
+    margin-bottom: -5px;
+    margin-left: 0;
+    margin-right: 0; }
+
+.btn {
+  padding: 0; }
+
+.kpx_btn-facebook {
+  width: 30px;
+  background: #0099E2;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+.kpx_btn-facebook:hover {
+  background: #172d5e; }
+
+.kpx_btn-facebook:focus {
+  background: #fff;
+  color: #3b5998;
+  border-color: #3b5998; }
+
+@media (max-width: 1090px) {
+  .floatBar ul {
+    display: flex;
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+    width: 100%;
+    position: fixed; } }

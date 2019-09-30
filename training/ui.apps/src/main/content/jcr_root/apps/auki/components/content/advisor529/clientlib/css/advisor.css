@@ -1,0 +1,21 @@
+
+.advisor {
+  margin: auto;
+  max-width: 95%; }
+  .advisor h2 {
+    font-size: 3rem;
+    padding-top: 40px; }
+  .advisor p {
+    font-size: 26px; }
+  .advisor a {
+    font-size: 1.3rem;
+    border: 2px  solid #333;
+    padding: 10px;
+    margin: auto;
+    color: #333;
+    font-weight: 700; }
+
+@media (max-width: 768px) {
+  .advisor a {
+    font-size: .7rem;
+    padding: 5px; } }
