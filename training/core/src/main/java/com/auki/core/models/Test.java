@@ -9,15 +9,24 @@ import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.Optional;
 import org.apache.sling.models.annotations.Required;
 
+import com.auki.core.impl.Training_service;
+
 @Model(adaptables = Resource.class, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class Test {
+	@Inject
+	private Training_service train;
+	
 	@Inject 
 	private String text;
-	@Inject @Required
+	
+	@Inject 
 	private String title;
+	
 	@Inject
 	private String pathbrowser;
+	
 	private String imagename; 
+	private String name;
 	
 	
 	public String getText() {
