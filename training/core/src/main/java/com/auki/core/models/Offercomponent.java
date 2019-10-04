@@ -48,11 +48,11 @@ public class Offercomponent {
 		this.description = description;
 	}
 	
-	@PostConstruct
-	protected void init() {
-		validity = train.firstname();
-		description = train.secondname();
-	}
+//	@PostConstruct
+//	protected void init() {
+//		validity = train.firstname();
+//		description = train.secondname();
+//	}
 	
 	
 }

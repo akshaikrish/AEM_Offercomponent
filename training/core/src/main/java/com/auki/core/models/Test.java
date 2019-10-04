@@ -10,9 +10,12 @@ import org.apache.sling.models.annotations.Optional;
 import org.apache.sling.models.annotations.Required;
 
 import com.auki.core.impl.Training_service;
+import com.auki.core.services.TrainingIntf;
 
 @Model(adaptables = Resource.class, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class Test {
+	
+	
 	@Inject
 	private Training_service train;
 	
@@ -59,8 +62,7 @@ public class Test {
 	}
 	@PostConstruct
 	protected void init() {
-		title = "Auki";
-		imagename = this.pathbrowser.substring( this.pathbrowser.lastIndexOf('/')+1, this.pathbrowser.length() );;
+		train.secondname();
 	}
 	
 	
